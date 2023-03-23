@@ -5,17 +5,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h1> 
+          IMDM290 Project Site: Fractal Explorer
+        </h1>
         <p>
-          Test
+          Katherine, Chloe, Camryn 
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Test
-        </a>
       </header>
     </div>
   );
