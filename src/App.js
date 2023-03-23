@@ -1,22 +1,18 @@
-
-import './App.css';
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import Creators from "./pages/Creators";
+import { BrowserRouter as Router, Routes, Route}
+    from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1> 
-          IMDM290 Project Site: Fractal Explorer
-        </h1>
-        <h3>
-          Katherine, Chloe, Camryn
-        </h3>
-        <p>
-          Site in progress come back later :D 
-        </p>
-
-      </header>
-    </div>
+    <Router>
+    <Navbar />
+    <Routes>
+        <Route exact path='/' element={<Home />} />
+        <Route path='/creators' element={<Creators/>} />
+    </Routes>
+    </Router>
   );
 }
 
