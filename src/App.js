@@ -8,9 +8,13 @@ function App() {
         <h1> 
           IMDM290 Project Site: Fractal Explorer
         </h1>
+        <h3>
+          Katherine, Chloe, Camryn
+        </h3>
         <p>
-          Katherine, Chloe, Camryn 
+          Site in progress come back later :D 
         </p>
+
       </header>
     </div>
   );
