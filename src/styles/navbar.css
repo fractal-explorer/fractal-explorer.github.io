@@ -1,0 +1,22 @@
+@import './styles.css';
+.navbar {
+    top: 0vh;
+    left: 0;
+    position: absolute;
+    padding: 1.5%;
+    width: 100%;
+    z-index: 4;
+    text-align: left;
+}
+
+
+.nav-button {
+    color: var(--col1);
+    text-decoration: none;
+    padding: 2.5vh;
+    font-weight: 700;
+}
+
+.nav-button:hover {
+    color: var(--col2);
+}

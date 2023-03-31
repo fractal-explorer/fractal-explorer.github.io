@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+:root {
+    --col1:  #F0D9E7;
+    --col2: #FF94CC;
+    --col3: #A239EA;
+    --col4: #5C33F6;
+    --col5: #00CFFD;
+    --col6: #FF2E9B;
+}
+
+p {
+    color: white;
+}
+
+body {
+    text-align: center;
+    font-family: "Inconsolata", monospace;
+    background-color: var(--col4);
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+}
+
+h2, h3 {
+    color: var(--col1);
+}
+
+h2:hover {
+    color: var(--col2);
+}
+
+.title {
+    border-radius: 50%;
+    background-image: linear-gradient(var(--col5), var(--col6));
+    width: 170px;
+    height: 170px;
+    margin-left: 40%;
+    margin-right: 40%;
+    position: absolute;
+    top: 4vh;
+    vertical-align: middle;
+}
+
+.title h1 {
+    color: white;
+    margin-top: 30%;
+}
+
+/* HOMEPAGE */
+
+.homepage {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 700;
+ }
+ 
+
+.homebody {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.homepage p {
+    margin-bottom: 3%;
+}
+
+ #header {
+    width: 100%;
+    height: 3 0%;
+    top: 0vh;
+ }
+
+ /* ABOUT */
+
+ /* CREATORS */
+ .creators {
+    padding: 5%;
+ }
+
+.creator-bio {
+    border: white solid 1px;
+    margin: 2%;
+}
+
+.creator-bio a {
+    color: var(--col1);
+}
+
+.creator-bio a:hover {
+    color: var(--col2);
+}
+
+.creator-bio p, h2 {
+    margin: 2%;
+}
+
+
+#katherine, #camryn, #background {
+    background-image: linear-gradient(to bottom right, var(--col3), var(--col4));
+    text-align: left;
+}
+
+#chloe, #tech {
+    background-image: linear-gradient(to bottom left, var(--col3), var(--col4));
+    text-align: right;
+}
+
+#katherine, #background {
+    margin-top: 8%;
+}
