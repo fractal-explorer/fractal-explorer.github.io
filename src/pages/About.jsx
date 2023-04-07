@@ -3,20 +3,19 @@ import '../styles/styles.css';
 
 function About() {
     return(
-        <div className="creators"> 
-            <div className="title">
-                <h1> About the Project </h1>
-            </div>
-            
-            <div className="creator-section>">
-                <div className="creator-bio" id="background">
+        <div id="about" className="page"> 
+        <div id="about-section" className="container>">
+                <div className="title">
+                    <h1> About the Project </h1>
+                </div>
+                <div className="subsection" id="background">
                     <h2> Background </h2>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    <p> Inspiration, motivation, etc </p>
                 </div>
 
-                <div className="creator-bio" id="tech">
+                <div className="subsection" id="tech">
                     <h2> Technical Implementation </h2>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p> How exactly we made the project</p>
                 </div>
             </div>
         </div>

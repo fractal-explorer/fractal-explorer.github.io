@@ -1,19 +1,25 @@
 import React from 'react';
 import '../styles/styles.css';
 import YoutubeEmbed from '../components/YoutubeEmbed';
-import Header from '../images/header.png';
+import Mandelbrot from '../images/mandelbrot.jpg';
+import Mandelzoom from '../images/mandelzoom.jpeg';
 
 function Home() {
     return (
-        <div className="homepage">
-            <img id="header" src={Header}></img>
+        <div className="page">
             <div className="homebody">
+                <h1>FRACTAL EXPLORER</h1>
                 <p> 
-                Brief about the project Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Ex
+                Brief about the project (note: the current pictures/videos are just placeholders for now and will be replaced with actual documentation of the project)
                 </p>
                 <div id="video">
                     <YoutubeEmbed embedId="dQw4w9WgXcQ" />
                 </div>
+                {/* 
+                <div className="home-photos">
+                    <img src={Mandelbrot}></img>
+                    <img src={Mandelzoom}></img>
+                </div> */}
                 
             </div>
             
