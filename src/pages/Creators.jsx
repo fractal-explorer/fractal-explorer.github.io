@@ -10,9 +10,11 @@ function Creators() {
                     <h1> Creators </h1>
                 </div>
                 <div className="subsection" id="katherine">
-                    <h2 id="katherine-name"> <a href="https://www.kath3rine.github.io"> Katherine
-                        </a> </h2>
-                    <p> Hi I’m Katherine, I’m a college student studying Computer Science and Immersive Media Design. I’m always looking to learn new technologies to create innovative works, so I’m super excited about this project because I get to combine my interests in tech and art to create an immersive virtual reality experience whilst drawing elements from other fields like math, music, and psychology.  </p>
+                    <h2> Katherine </h2> 
+                    <p> Hi I’m Katherine, I’m a college student studying Computer Science and Immersive Media Design. <br /><a href="https://kath3rine.github.io"> Portfolio </a> |
+                    <a href="https://linkedin.com/in/kli17"> Linkedin</a>
+                    </p>
+                    
                 </div>
 
                 <div className="subsection" id="chloe">

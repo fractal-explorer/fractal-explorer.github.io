@@ -3,15 +3,17 @@
     top: 0vh;
     left: 0;
     position: absolute;
-    padding: 1.5%;
+    padding: 1.25%;
     width: 100%;
     z-index: 4;
     text-align: left;
+    background-color: var(--col4);
+    opacity: 0.8;
 }
 
 
 .nav-button {
-    color: var(--col1);
+    color: white;
     text-decoration: none;
     padding: 2.5vh;
     font-weight: 700;
