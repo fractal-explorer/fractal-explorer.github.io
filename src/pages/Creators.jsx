@@ -11,7 +11,8 @@ function Creators() {
                 </div>
                 <div className="subsection" id="katherine">
                     <h2> Katherine </h2> 
-                    <p> Hi I’m Katherine, I’m a college student studying Computer Science and Immersive Media Design. <br /><a href="https://kath3rine.github.io"> Portfolio </a> |
+                    <p> Hi I’m Katherine, I’m a college student studying Computer Science and Immersive Media Design. My goal is to synthesize technology and creativity to create innovative works, so I'm super excited about this project because it shows the power programming can have in art, in virtual reality!<br />
+                    <a href="https://kath3rine.github.io"> Portfolio </a> |
                     <a href="https://linkedin.com/in/kli17"> Linkedin</a>
                     </p>
                     

@@ -3,7 +3,7 @@
     top: 0vh;
     left: 0;
     position: absolute;
-    padding: 1.25%;
+    padding: 1%;
     width: 100%;
     z-index: 4;
     text-align: left;
@@ -15,7 +15,7 @@
 .nav-button {
     color: white;
     text-decoration: none;
-    padding: 2.5vh;
+    padding: 2vh;
     font-weight: 700;
 }
 
