@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.bd2645ff.css",
-    "main.js": "/static/js/main.135d5a94.js",
+    "main.css": "/static/css/main.996ee7b0.css",
+    "main.js": "/static/js/main.508c69f7.js",
     "static/js/787.fb4b8325.chunk.js": "/static/js/787.fb4b8325.chunk.js",
-    "static/media/mandelbrot.jpg": "/static/media/mandelbrot.afe701261c72d5982d6d.jpg",
-    "static/media/mandelzoom.jpeg": "/static/media/mandelzoom.5575e9bf3f45afa810bf.jpeg",
+    "static/media/fractal-1b.png": "/static/media/fractal-1b.77fdacbf2a8d18d6257c.png",
+    "static/media/fractal-3b.png": "/static/media/fractal-3b.acb096ee10d9845ff60f.png",
+    "static/media/fractal-3a.png": "/static/media/fractal-3a.1327157af3036506f8e6.png",
+    "static/media/fractal-1a.png": "/static/media/fractal-1a.69bf590bdef4c5fcb6bd.png",
+    "static/media/fractal-2a.png": "/static/media/fractal-2a.a3df0a5e089471f99446.png",
+    "static/media/fractal-2b.png": "/static/media/fractal-2b.fff0475713c34c2b615e.png",
     "static/media/nautilus.jpeg": "/static/media/nautilus.1a35f65c3bf35823c686.jpeg",
     "index.html": "/index.html",
-    "main.bd2645ff.css.map": "/static/css/main.bd2645ff.css.map",
-    "main.135d5a94.js.map": "/static/js/main.135d5a94.js.map",
+    "main.996ee7b0.css.map": "/static/css/main.996ee7b0.css.map",
+    "main.508c69f7.js.map": "/static/js/main.508c69f7.js.map",
     "787.fb4b8325.chunk.js.map": "/static/js/787.fb4b8325.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd2645ff.css",
-    "static/js/main.135d5a94.js"
+    "static/css/main.996ee7b0.css",
+    "static/js/main.508c69f7.js"
   ]
 }
