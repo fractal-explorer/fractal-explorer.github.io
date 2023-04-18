@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" type="text/javascript"></script>
+    <title>FRACTAL EXPLORER</title>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html" class="nav-button"> Home </a>
+        <a href="about.html" class="nav-button"> About </a>
+        <a href="creators.html" class="nav-button"> Creators </a>
+    </div>
+
+    <div id="about" class="page"> 
+        <div id="about-section" class="container>">
+                <div class="title">
+                    <h1> About</h1>
+                </div>
+                <div class="subsection" id="background">
+                    <h2> What </h2>
+                    <p> 
+                        <a href="https://en.wikipedia.org/wiki/Fractal">Fractals</a> are recursively-generated, infinitely self similar patterns; if you zoom into part of it, you will get a replica of the zoomed-out image that goes on infinitely, showing how a simple mathematical equation can create complex and beautiful patterns. 
+                        Fractal Explorer utilizes elements of algorithmic art and digital morphogenesis, such as iteration and recursion, to create a three-dimensional fractal that changes in color, shape, speed, etc. based on the audio features (e.g. tempo, energy, valence) of a song of the user's choosing. 
+                    </p>
+                </div>
+
+                <div class="subsection" id="inspo">
+                    <h2> Why </h2>
+                    <p> 
+                    We wanted a theme that combined our interests in math, art, music, and psychology. 
+                    Fractals are constructed using simple rules but can create complex and beautiful patterns, so we chose it as our theme because tweaking a few parameters in the code can quickly and completely change the fractal. 
+                    We were inspired by visual representations of fractals like the  <a href="https://en.wikipedia.org/wiki/Mandelbrot_set">Mandelbrot</a> and <a href="https://en.wikipedia.org/wiki/Julia_set#Examples">Julia</a> set, as well as works like Electric Sheep that utilize color and music to invoke emotions. 
+                    But, in order to make the experience more immersive, we did ours in 3D instead of 2D. 
+                    </p>
+                </div>
+
+                <div class="subsection" id="tech">
+                    <h2> How </h2>
+                    <p> This project was constructed in Unity and can be experienced via an Oculus headset. 
+                    We used Spotify’s API to access various audio traits of the songs and modeled the GameObjects in Maya. 
+                    We developed C# functions to recursively generate GameObjects and modularly control various features of the fractal (color, speed, shape, etc), using public variables for the parameters so that they could easily be altered </p>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

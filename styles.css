@@ -47,16 +47,16 @@ a {
     color: white;
 }
 
- .page {
+ .page, .frontpage {
     position: relative; 
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.page::before {    
+.frontpage::before {    
       content: "";
-      background-image: url('../images/nautilus.jpeg');
+      background-image: url('images/mandelbrot.jpg');
       background-size: cover;
       position: absolute;
       top: 0px;
@@ -67,11 +67,56 @@ a {
       z-index: -10;
 }
 
+.page::before {    
+    content: "";
+    background-image: url('images/nautilus.jpeg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.35;
+    z-index: -10;
+}
+
+iframe {
+    height: 50vh;
+    width: 80vh;
+    margin: 2%;
+}
+
+/* NAV BAR */
+.navbar {
+    top: 0vh;
+    left: 0;
+    position: fixed;
+    padding: 1%;
+    width: 100%;
+    z-index: 4;
+    text-align: left;
+    background-color: var(--col4);
+    opacity: 0.8;
+}
+
+
+.nav-button {
+    color: white;
+    text-decoration: none;
+    padding: 2vh;
+    font-weight: 700;
+}
+
+.nav-button:hover {
+    color: var(--col2);
+}
+
+
 /* HOME */
 
 .homebody {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
     background: var(--col4);
 }
 
@@ -82,9 +127,14 @@ a {
     -webkit-text-fill-color: transparent;
 }
 
+.intro {
+    margin: 2%;
+}
+
 .homebody p {
     font-size: 1.1rem;
 }
+
 
 .home-photos {
     display: grid;
@@ -94,8 +144,8 @@ a {
   }
 
 .home-photos img {
-    width: 100%;
-    height: 100%;
+    width: 95%;
+    height: 95%;
     z-index: -1;
 }
 
@@ -104,15 +154,12 @@ a {
 }
 
 .caption {
-    border: black 10px solid;
     position: absolute;
-    top: 75%;
-    left: 0%;
-    height: 100%;
+    height: 40%;
     width: 100%;
-    top: 0%;
-    bottom: 30%;
+    top: 30%;
     z-index: 10;
+    color: transparent;
 }
 
 
