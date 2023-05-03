@@ -24,25 +24,36 @@
                     <h2> What </h2>
                     <p> 
                         <a href="https://en.wikipedia.org/wiki/Fractal">Fractals</a> are recursively-generated, infinitely self similar patterns; if you zoom into part of it, you will get a replica of the zoomed-out image that goes on infinitely, showing how a simple mathematical equation can create complex and beautiful patterns. 
-                        Fractal Explorer utilizes elements of algorithmic art and digital morphogenesis, such as iteration and recursion, to create a three-dimensional fractal that changes in color, shape, speed, etc. based on the audio features (e.g. tempo, energy, valence) of a song of the user's choosing. 
+                        
+                        
+                        Fractal Explorer utilizes elements of algorithmic art and digital morphogenesis, such as iteration and recursion, to create a three-dimensional fractal that changes in color, shape, speed, etc. based on the audio features of a song of the user's choosing.
+                         
                     </p>
+                    
                 </div>
 
                 <div class="subsection" id="inspo">
+                    <img src="/images/why-mandelbrot.png" 
+                    style="float: right; width: 200px; height: 120px; margin: 20px">
                     <h2> Why </h2>
                     <p> 
                     We wanted a theme that combined our interests in math, art, music, and psychology. 
                     Fractals are constructed using simple rules but can create complex and beautiful patterns, so we chose it as our theme because tweaking a few parameters in the code can quickly and completely change the fractal. 
-                    We were inspired by visual representations of fractals like the  <a href="https://en.wikipedia.org/wiki/Mandelbrot_set">Mandelbrot</a> and <a href="https://en.wikipedia.org/wiki/Julia_set#Examples">Julia</a> set, as well as works like Electric Sheep that utilize color and music to invoke emotions. 
+                    We were inspired by visual representations of fractals like the  <a href="https://en.wikipedia.org/wiki/Mandelbrot_set">Mandelbrot</a> (right) and <a href="https://en.wikipedia.org/wiki/Julia_set#Examples">Julia</a> set, as well as works like <a href="https://electricsheep.org/">Electric Sheep</a> that utilize color and music to invoke emotions. 
                     But, in order to make the experience more immersive, we did ours in 3D instead of 2D. 
                     </p>
                 </div>
 
                 <div class="subsection" id="tech">
                     <h2> How </h2>
-                    <p> This project was constructed in Unity and can be experienced via an Oculus headset. 
-                    We used Spotify’s API to access various audio traits of the songs and modeled the GameObjects in Maya. 
-                    We developed C# functions to recursively generate GameObjects and modularly control various features of the fractal (color, speed, shape, etc), using public variables for the parameters so that they could easily be altered </p>
+                    <p> This project was constructed in Unity and can be experienced via an Oculus headset. We used the <a href="https://github.com/kath3rine/fractal-repo/blob/main/290notebook.ipynb">Spotify API</a> to retrieve various audio features of each song (tempo, valence, energy, and more) and created a <a href="https://github.com/kath3rine/fractal-repo/blob/main/Fractal.cs">C# script</a> that recursively generates three-dimensional fractals, using the audio to determine various aspects of its appearance (color, speed, shape etc) so it reflects the song. </br></br>
+
+                    <img src="/images/how-code.png" 
+                    style="width: 40%; float: right; margin-left: 15px">
+                    For example, color blue is often associated with sadness, so the fractal for a song with a low valence (happiness) score would have a higher amount of blue pigment (same  for energy and red, and danceability and green). 
+                    Quietness is associated with lighter colors, and less acoustic music is associated with chaos.
+                    So, a song like Lovely (Billie Eilish) with low valence/happiness (0.120), mid-low danceability (0.351), and low energy (0.296) would have a low amounts of red and green, and a high amount of blue; since it's a quiet song (-10.109 db), all of the RGB values will be increased to lighten the color. This results in a color that's 71% red, 76% green, and 100% blue, or <a id="col1">#B3C1FF</a>  in hex. To generate complementing colors, we rearranged the R/G/B values for <a id="col2">#C1B3FF</a> and <a id="col3">#B3FFC1</a>.
+                     </p>
                 </div>
             </div>
         </div>

@@ -8,18 +8,7 @@
     <script src="script.js" type="text/javascript"></script>
     <title>FRACTAL EXPLORER</title>
 </head>
-
-<script>
-    function captionOn(text, image) {
-    document.getElementById(text).style.color = 'white';
-    document.getElementById(image).style.opacity = 0.4;
-}
-
-function captionOff(text, image) {
-    document.getElementById(text).style.color = 'transparent';
-    document.getElementById(image).style.opacity = 1;
-}
-</script>
+<script src="style/script.js" type="text/javascript"></script>
 
 <body>
     <div class="navbar">
@@ -34,59 +23,43 @@ function captionOff(text, image) {
 
             <p class="intro"> 
             <a href="about.html"> Fractal Explorer </a> utilizes algorithmic art to combine elements of music, math, and psychology to create a moving virtual reality experience. The user chooses a song, and are placed within an immersive animated, recursively generated three-dimensional fractal that changes in appearance to complement the song. </br>
-                <iframe src="https://www.youtube.com/embed/hvL1339luv0">
-                </iframe>
+                <!-- <iframe src="https://www.youtube.com/embed/hvL1339luv0">
+                </iframe> -->
             <div class="home-photos">
                 <div class="home-photo-container"
-                onmouseover="captionOn('caption1', 'img1')"
-                onmouseout="captionOff('caption1', 'img1')">
+                onmouseover="captionOn('link1', 'img1')"
+                onmouseout="captionOff('link1', 'img1')">
                 <p class="caption" id="caption1"> 
-                    caption 1 here </p>
-                    <img src="images/fractal-1a.png" id="img1"></img>
+                    <a href="https://www.youtube.com/watch?v=gGdGFtwCNBE" id="link1"> Mr. Brightside <br>
+                    (The Killers)</a> </p>
+                    <img src="images/brightside1.png" id="img1"></img>
                 </div>
                 
                 <div class="home-photo-container"
-                onmouseover="captionOn('caption2', 'img2')"
-                onmouseout="captionOff('caption2', 'img2')">
+                onmouseover="captionOn('link2', 'img2')"
+                onmouseout="captionOff('link2', 'img2')">
                 <p class="caption" id="caption2"> 
-                    caption 2 here </p>
-                    <img src="images/fractal-1b.png" id="img2"></img>
+                    <a href="https://www.youtube.com/watch?v=gGdGFtwCNBE" id="link2"> Mr. Brightside <br>
+                        (The Killers)</a> </p>
+                    <img src="images/brightside2.png" id="img2"></img>
                 </div>
                 
 
-                <div class="home-photo-container"
-                onmouseover="captionOn('caption3', 'img3')"
-                onmouseout="captionOff('caption3', 'img3')">
+                <div class="home-photo-container"> 
                 <p class="caption" id="caption3"> 
                     caption 3 here </p>
-                    <img src="images/fractal-2a.png" id="img3"></img>
+                    <img src="images/fractal-1a.png" id="img3"></img>
                 </div>
 
                 <div class="home-photo-container"
-                onmouseover="captionOn('caption4', 'img4')"
-                onmouseout="captionOff('caption4', 'img4')">
+                onmouseover="captionOn('link4', 'img4')"
+                onmouseout="captionOff('link4', 'img4')">
                 <p class="caption" id="caption4"> 
-                    caption 4 here </p>
-                    <img src="images/fractal-2b.png" id="img4"></img>
-                </div>
-
-                <div class="home-photo-container"
-                onmouseover="captionOn('caption5', 'img5')"
-                onmouseout="captionOff('caption5', 'img5')">
-                <p class="caption" id="caption5"> 
-                    caption 1 here </p>
-                    <img src="images/fractal-3a.png" id="img5"></img>
-                </div>
-
-                <div class="home-photo-container"
-                onmouseover="captionOn('caption6', 'img6')"
-                onmouseout="captionOff('caption6', 'img6')">
-                <p class="caption" id="caption6"> 
-                    caption 1 here </p>
-                    <img src="images/fractal-3b.png" id="img6"></img>
+                    <a href="https://www.youtube.com/watch?v=8xg3vE8Ie_E" id="link4">Love Story <br>
+                        (Taylor Swift)</a> </p>
+                    <img src="images/lovestory1.png" id="img4"></img>
                 </div>
             </div> 
-            
         </div>
         
     </div>
